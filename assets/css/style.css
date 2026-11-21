@@ -301,7 +301,7 @@ hr {
   padding: var(--space-2) 0;
 }
 
-/* Parent company crest, used as the Academy's mark next to the text wordmark. */
+/* Academy emblem, used as the mark next to the text wordmark. */
 .brand__mark {
   flex: none;
   width: 44px;
