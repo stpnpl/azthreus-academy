@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programs — Azthreus Academy</title>
+  <meta name="description" content="Proposed learning paths for K–12 STEM, College &amp; Research, and Professional Learning at Azthreus Academy of Science and Technology. All programs are in development.">
+  <meta name="theme-color" content="#0a0f18">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img class="brand__mark" src="assets/img/azthreus-logo-160.png" alt="" width="44" height="44" decoding="async">
+        <span class="wordmark">
+          <span class="wordmark__name">Azthreus Academy</span>
+          <span class="wordmark__sub">Science &amp; Technology</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open main menu">
+        <span class="nav-toggle__bars" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="nav-toggle__label">Menu</span>
+      </button>
+
+      <nav aria-label="Primary">
+        <ul class="nav-menu" id="primary-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="programs.html" aria-current="page">Programs</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="nav-cta"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-hero">
+      <div class="container">
+        <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li>Programs</li>
+        </ol>
+        <h1 class="page-hero__title">Programs</h1>
+        <p>
+          Three proposed learning paths, one for each kind of visitor the Academy serves. Every
+          path describes who it serves, what someone could learn, and one concrete example of the
+          work. None of these programs is open for enrollment.
+        </p>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container">
+
+        <div class="note note--accent" role="note">
+          <span class="note__title">How to read this page</span>
+          <p>
+            <span class="status">Proposed</span> marks a path that is still being designed.
+            <span class="status">Illustrative</span> marks an example written to show the shape of
+            the work, not an activity currently scheduled. Session length, group size, delivery
+            format, tuition, and any credential have not been set.
+          </p>
+        </div>
+
+        <section class="path" id="k12" aria-labelledby="k12-title">
+          <div class="path__header">
+            <div>
+              <p class="eyebrow">Path one</p>
+              <h2 class="path__title" id="k12-title">K–12 STEM</h2>
+              <p class="path__audience">Secondary-school learners, roughly ages 11–18, with their families and teachers.</p>
+            </div>
+            <span class="status status--proposed">Proposed</span>
+          </div>
+
+          <div class="path__body">
+            <div>
+              <p class="path__lede">
+                An introduction to how a machine follows instructions across a distance — and why
+                waiting is part of the engineering, not an inconvenience to ignore.
+              </p>
+
+              <div class="spec">
+                <h3 class="spec__title">What someone could learn</h3>
+                <ul>
+                  <li>Turn a goal like “go from the lander to the ridge” into steps a machine can follow exactly.</li>
+                  <li>Estimate how long a signal takes to travel, and explain why a reply cannot arrive instantly.</li>
+                  <li>Test a route plan against terrain, time, and battery limits, then record what failed and why.</li>
+                  <li>Explain a result to someone who was not in the room, using a map and a short written log.</li>
+                </ul>
+              </div>
+
+              <div class="note">
+                <span class="note__title">Format</span>
+                <p>
+                  Format is not finalised. The intended shape is a short series of staff-led sessions
+                  for small groups, using paper maps and free software a school already has.
+                </p>
+              </div>
+            </div>
+
+            <div class="example">
+              <span class="example__label">Illustrative example</span>
+              <h3 class="example__title">Model a rover route</h3>
+              <p>
+                Learners receive a map of a small area with a start point, a target, and a few
+                hazards. Commands can only be sent in batches, and each batch takes a set time to
+                arrive.
+              </p>
+              <ol>
+                <li>Draw the route on paper and list the commands needed to drive it.</li>
+                <li>Decide which commands to send together, knowing the rover keeps moving while the message travels.</li>
+                <li>Run the plan, mark where it actually ended up, and compare that with the prediction.</li>
+                <li>Revise the plan, then explain the change in two sentences.</li>
+              </ol>
+            </div>
+          </div>
+        </section>
+
+        <section class="path" id="college" aria-labelledby="college-title">
+          <div class="path__header">
+            <div>
+              <p class="eyebrow">Path two</p>
+              <h2 class="path__title" id="college-title">College &amp; Research</h2>
+              <p class="path__audience">Undergraduate and graduate learners in computing, engineering, and information science, and faculty who want to collaborate.</p>
+            </div>
+            <span class="status status--proposed">Proposed</span>
+          </div>
+
+          <div class="path__body">
+            <div>
+              <p class="path__lede">
+                A closer study of networks that cannot assume a live connection. Learners work with
+                store-and-forward delivery, custody of data, and the evidence a receiver needs before
+                it trusts a file.
+              </p>
+
+              <div class="spec">
+                <h3 class="spec__title">What someone could learn</h3>
+                <ul>
+                  <li>Explain store-and-forward delivery: why a node holds data, and what it owes the sender while it holds it.</li>
+                  <li>Model latency and contact windows, then describe how each one changes a protocol design.</li>
+                  <li>Verify integrity with checksums and digests, and say clearly what a match does and does not prove.</li>
+                  <li>Turn an observation from a simulation into a research question that could be tested.</li>
+                </ul>
+              </div>
+
+              <div class="note">
+                <span class="note__title">Relationship to research</span>
+                <p>
+                  This path shares material with the Academy's proposed research themes. A learner
+                  might build the test harness that a research theme would later use, and be credited
+                  for that work if it is published.
+                </p>
+              </div>
+            </div>
+
+            <div class="example">
+              <span class="example__label">Illustrative example</span>
+              <h3 class="example__title">Simulate message delivery during a communication delay</h3>
+              <p>
+                Two simulated nodes exchange files over a link that is only open for short windows.
+                One window is cancelled partway through a transfer.
+              </p>
+              <ol>
+                <li>Send a file in pieces and log every piece the receiver holds.</li>
+                <li>Interrupt the link, wait, then reopen it.</li>
+                <li>Ask the receiver to confirm the file is intact using a digest, and record the result before and after repair.</li>
+                <li>Write a one-page note on what the receiver could prove, what it had to trust, and what an attacker could have changed.</li>
+              </ol>
+            </div>
+          </div>
+        </section>
+
+        <section class="path" id="professional" aria-labelledby="professional-title">
+          <div class="path__header">
+            <div>
+              <p class="eyebrow">Path three</p>
+              <h2 class="path__title" id="professional-title">Professional Learning</h2>
+              <p class="path__audience">Working software and systems engineers, technical leads, and review teams who want practice in reliability work.</p>
+            </div>
+            <span class="status status--proposed">Proposed</span>
+          </div>
+
+          <div class="path__body">
+            <div>
+              <p class="path__lede">
+                Practice in the part of engineering that is hardest to schedule: reviewing a design
+                for how it fails, and writing findings that a colleague can act on without asking
+                what you meant.
+              </p>
+
+              <div class="spec">
+                <h3 class="spec__title">What someone could learn</h3>
+                <ul>
+                  <li>Read a design brief for assumptions it never states, and separate those from the requirements it does state.</li>
+                  <li>Identify single points of failure and rank them by what the user loses when each one fails.</li>
+                  <li>Propose a test that would show a failure rather than a test that would pass.</li>
+                  <li>Write a review note with findings, evidence, and an owner — not a list of concerns.</li>
+                </ul>
+              </div>
+
+              <div class="note">
+                <span class="note__title">Not a credential</span>
+                <p>
+                  This path is not accredited, does not award continuing-education credits, and does
+                  not certify competence. It is practice, with feedback.
+                </p>
+              </div>
+            </div>
+
+            <div class="example">
+              <span class="example__label">Illustrative example</span>
+              <h3 class="example__title">Review a system design for reliability</h3>
+              <p>
+                Participants receive a short design brief for a field device that must keep working
+                with intermittent power and an unreliable uplink. The design looks reasonable on the
+                first read.
+              </p>
+              <ol>
+                <li>List what the design assumes: continuous power, a live link, an operator nearby.</li>
+                <li>Pick the two assumptions most likely to break, and describe the failure a user would see.</li>
+                <li>Propose one test per failure, with a pass condition and a stop condition.</li>
+                <li>Write the review note, then read another participant's note and mark one finding you would act on.</li>
+              </ol>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </section>
+
+    <section class="section section--alt" aria-labelledby="limits-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Before you plan around us</p>
+          <h2 id="limits-title">What these paths do not include</h2>
+          <p>So that no one arrives expecting something the Academy has not built.</p>
+        </div>
+
+        <div class="card-grid">
+          <div class="card">
+            <h3>No open enrollment</h3>
+            <p>
+              There is no application, intake date, or waiting list. When a program opens, the terms
+              will be published on this site first.
+            </p>
+          </div>
+          <div class="card">
+            <h3>No set tuition</h3>
+            <p>
+              No fees have been decided for any path. No price on this site should be inferred from
+              its absence.
+            </p>
+          </div>
+          <div class="card">
+            <h3>No accreditation or credentials</h3>
+            <p>
+              The Academy is not an accredited institution and awards no degrees, certificates, or
+              credits.
+            </p>
+          </div>
+        </div>
+
+        <p class="section-foot">
+          <a class="link-arrow" href="contact.html">Ask a question about a path</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img class="footer-brand__mark" src="assets/img/azthreus-logo-160.png" alt="" width="44" height="44" loading="lazy" decoding="async">
+          <span class="wordmark">
+            <span class="wordmark__name">Azthreus Academy</span>
+            <span class="wordmark__sub">Science &amp; Technology</span>
+          </span>
+          <p>
+            The education and research initiative of Azthreus Systems. Programs and research on
+            this site are in development.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h2>Programs</h2>
+          <ul>
+            <li><a href="programs.html#k12">K–12 STEM</a></li>
+            <li><a href="programs.html#college">College &amp; Research</a></li>
+            <li><a href="programs.html#professional">Professional Learning</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h2>Research</h2>
+          <ul>
+            <li><a href="research.html#resilient-computing">Resilient computing</a></li>
+            <li><a href="research.html#space-communications">Space communications</a></li>
+            <li><a href="research.html#long-term-preservation">Digital preservation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h2>Academy</h2>
+          <ul>
+            <li><a href="about.html">About the Academy</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://stpnpl.github.io/azthreus-systems/">Azthreus Systems</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="copyright-year">2026</span> Azthreus Systems. Azthreus Academy of Science and Technology.</p>
+        <p><a href="https://stpnpl.github.io/azthreus-systems/">Azthreus Systems, the parent company</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/nav.js"></script>
+</body>
+</html>

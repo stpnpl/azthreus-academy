@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research — Azthreus Academy</title>
+  <meta name="description" content="Proposed research themes at Azthreus Academy: resilient computing, space communications, and long-term digital preservation, each with one research question.">
+  <meta name="theme-color" content="#0a0f18">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img class="brand__mark" src="assets/img/azthreus-logo-160.png" alt="" width="44" height="44" decoding="async">
+        <span class="wordmark">
+          <span class="wordmark__name">Azthreus Academy</span>
+          <span class="wordmark__sub">Science &amp; Technology</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open main menu">
+        <span class="nav-toggle__bars" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="nav-toggle__label">Menu</span>
+      </button>
+
+      <nav aria-label="Primary">
+        <ul class="nav-menu" id="primary-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="research.html" aria-current="page">Research</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="nav-cta"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-hero">
+      <div class="container">
+        <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li>Research</li>
+        </ol>
+        <h1 class="page-hero__title">Research</h1>
+        <p>
+          Proposed research themes connected to the engineering interests of Azthreus Systems. Each
+          theme is explained in plain language and paired with one research question. Nothing on
+          this page is a published result.
+        </p>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="note note--accent" role="note">
+          <span class="note__title">Proposed, not published</span>
+          <p>
+            The Academy has no published findings, funded studies, or completed experiments. Text
+            marked <span class="status">Proposed</span> describes work the Academy intends to
+            pursue. If a theme produces results, the paper or report would be linked from this page
+            and labelled as a publication.
+          </p>
+        </div>
+
+        <div class="theme-list">
+
+          <article class="theme" id="resilient-computing" aria-labelledby="resilient-title">
+            <div class="theme__index" aria-hidden="true">01</div>
+            <div class="theme__body">
+              <h2 class="theme__title" id="resilient-title">Resilient computing</h2>
+              <p>
+                A computer running far from Earth is hit by radiation that can flip a single bit in
+                memory. The program keeps running, but one value is now wrong. Resilience research
+                asks how a system notices that kind of silent damage, corrects it, and shows that the
+                correction worked — without a technician on site.
+              </p>
+              <p>
+                In plain terms: the interesting problem is not only surviving the fault, but being
+                able to say afterwards what happened and why the state that remains is trustworthy.
+              </p>
+              <div class="question">
+                <span class="question__label">Research question</span>
+                <p>How can a system prove that it recovered correctly from a fault it never detected when the fault occurred?</p>
+              </div>
+              <ul class="tag-row">
+                <li>Fault tolerance</li>
+                <li>Redundancy</li>
+                <li>Verification</li>
+                <li><span class="status status--proposed">Proposed</span></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="theme" id="space-communications" aria-labelledby="comms-title">
+            <div class="theme__index" aria-hidden="true">02</div>
+            <div class="theme__body">
+              <h2 class="theme__title" id="comms-title">Space communications</h2>
+              <p>
+                Across interplanetary distances a message can take minutes or hours to arrive, and
+                the link can close before the reply. Store-and-forward networking handles this by
+                letting each node hold data until the next contact window. The hard part is trust:
+                the receiver gets a file in pieces, long after the sender has gone quiet, and has to
+                decide whether the result is the file that was sent.
+              </p>
+              <p>
+                This theme is about the evidence a receiver can gather — digests, sequence records,
+                custody reports — and what each piece of evidence actually rules out.
+              </p>
+              <div class="question">
+                <span class="question__label">Research question</span>
+                <p>How can a receiver verify that a file is intact after a long interruption?</p>
+              </div>
+              <ul class="tag-row">
+                <li>Delay-tolerant networking</li>
+                <li>Store-and-forward</li>
+                <li>Integrity verification</li>
+                <li><span class="status status--proposed">Proposed</span></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="theme" id="long-term-preservation" aria-labelledby="preservation-title">
+            <div class="theme__index" aria-hidden="true">03</div>
+            <div class="theme__body">
+              <h2 class="theme__title" id="preservation-title">Long-term digital preservation</h2>
+              <p>
+                A file that opens today may not open in a hundred years, not because the bits were
+                lost but because the software that reads it no longer exists. Preservation research
+                works on keeping records understandable across that gap: checking that stored data
+                has not changed, migrating formats before they become unreadable, and documenting how
+                a file was meant to be read.
+              </p>
+              <p>
+                The practical question is one of priorities. Every choice — keep the original, keep
+                an accurate copy, keep the tools that interpret it — costs something and protects
+                something different.
+              </p>
+              <div class="question">
+                <span class="question__label">Research question</span>
+                <p>What minimal set of records lets someone a century from now confirm that an archived file is unchanged and interpret what it means?</p>
+              </div>
+              <ul class="tag-row">
+                <li>Digital preservation</li>
+                <li>Fixity</li>
+                <li>Format migration</li>
+                <li><span class="status status--proposed">Proposed</span></li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" aria-labelledby="research-status-title">
+      <div class="container">
+        <div class="split">
+          <div>
+            <p class="eyebrow">Where this stands</p>
+            <h2 id="research-status-title">How proposed work becomes published work</h2>
+            <p class="lede">
+              A theme on this page is a direction, not a result. Turning one into research means
+              writing a question precise enough to be wrong, building something that can produce
+              evidence, and reporting the outcome even when it is inconvenient.
+            </p>
+            <p>
+              The Academy would publish methods and results openly, including negative results, and
+              would credit learners who contributed to a study. No timeline has been set, because no
+              study has been approved or funded.
+            </p>
+            <a class="link-arrow" href="contact.html">Discuss a research collaboration</a>
+          </div>
+
+          <div class="stack">
+            <div class="card">
+              <h3>How themes connect to Azthreus Systems</h3>
+              <p>
+                The three themes follow the company's engineering interests: radiation-tolerant
+                operating systems, delay-tolerant networking, and long-term archival. The Academy
+                studies the questions behind that work at a pace and depth a product schedule cannot
+                always allow.
+              </p>
+            </div>
+            <div class="card">
+              <h3>What we will not claim</h3>
+              <p>
+                No partnerships, funding, publication venues, or supervisory relationships are
+                asserted on this site. Each will be stated plainly here when it exists.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img class="footer-brand__mark" src="assets/img/azthreus-logo-160.png" alt="" width="44" height="44" loading="lazy" decoding="async">
+          <span class="wordmark">
+            <span class="wordmark__name">Azthreus Academy</span>
+            <span class="wordmark__sub">Science &amp; Technology</span>
+          </span>
+          <p>
+            The education and research initiative of Azthreus Systems. Programs and research on
+            this site are in development.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h2>Programs</h2>
+          <ul>
+            <li><a href="programs.html#k12">K–12 STEM</a></li>
+            <li><a href="programs.html#college">College &amp; Research</a></li>
+            <li><a href="programs.html#professional">Professional Learning</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h2>Research</h2>
+          <ul>
+            <li><a href="research.html#resilient-computing">Resilient computing</a></li>
+            <li><a href="research.html#space-communications">Space communications</a></li>
+            <li><a href="research.html#long-term-preservation">Digital preservation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h2>Academy</h2>
+          <ul>
+            <li><a href="about.html">About the Academy</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://stpnpl.github.io/azthreus-systems/">Azthreus Systems</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="copyright-year">2026</span> Azthreus Systems. Azthreus Academy of Science and Technology.</p>
+        <p><a href="https://stpnpl.github.io/azthreus-systems/">Azthreus Systems, the parent company</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/nav.js"></script>
+</body>
+</html>
